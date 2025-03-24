@@ -8,6 +8,7 @@ import (
 	"net/http"
 )
 
+// 模拟 db 数据
 var db = map[string]string{
 	"Tom":  "630",
 	"Jack": "589",
